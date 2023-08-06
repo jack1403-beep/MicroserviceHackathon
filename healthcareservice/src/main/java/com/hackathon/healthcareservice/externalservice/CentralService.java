@@ -8,6 +8,6 @@ import com.hackathon.healthcareservice.modeldto.HealthCareReport;
 @FeignClient(name = "centralsurveillanceservice")
 public interface CentralService {
 	
-	@PostMapping("/surveillance")
+	@PostMapping("/Central/surveillance")
 	public String healthCareReport(HealthCareReport careReport);
 }

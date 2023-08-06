@@ -9,6 +9,6 @@ import com.hackathon.analysisservice.modeldto.ResponseDto;
 @FeignClient(name = "centralsurveillanceservice")
 public interface AnalysisCount {
 	
-	@GetMapping("/analysisCount")
+	@GetMapping("/Central/analysisCount")
 	public ResponseDto analysisCounts();
 }

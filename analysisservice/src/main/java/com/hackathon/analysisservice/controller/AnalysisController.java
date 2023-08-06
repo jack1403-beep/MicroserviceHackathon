@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.hackathon.analysisservice.service.AnalysisService;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/AnalysisController")
 public class AnalysisController {
 	
 	@Autowired

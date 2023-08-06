@@ -13,7 +13,7 @@ import com.hackathon.centralsureveillanceservice.service.CentralSureveillanceSer
 
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/Central")
 public class CentralController {
 
 	@Autowired

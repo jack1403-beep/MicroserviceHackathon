@@ -10,7 +10,7 @@ import com.hackathon.healthcareservice.modeldto.HealthCareReport;
 import com.hackathon.healthcareservice.services.HealthCareService;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/healthcare")
 public class HealthCareController {
 	
 	@Autowired

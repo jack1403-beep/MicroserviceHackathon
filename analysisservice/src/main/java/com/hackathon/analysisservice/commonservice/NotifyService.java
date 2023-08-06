@@ -8,7 +8,7 @@ import com.hackathon.analysisservice.modeldto.NotificationData;
 @FeignClient(name = "notificationservice")
 public interface NotifyService {
 	
-	@GetMapping("/notify")
+	@GetMapping("/notificationController/notify")
 	public boolean notification(NotificationData data);
 
 }
